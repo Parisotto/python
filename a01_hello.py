@@ -19,3 +19,4 @@ media = 7.3
 novaMedia = 7,9
 print(media)
 print(novaMedia)
+
