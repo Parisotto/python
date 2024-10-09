@@ -18,4 +18,4 @@ frutas = {
     "Laranja: R$5,00",
     "Pera: R$3,00"
 }
-#print(frutas)
+print(frutas)
