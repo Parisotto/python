@@ -21,4 +21,3 @@ setPaises.remove("Canadá")
 print(listaPaises)
 print(tuplaPaises)
 print(setPaises)
-
