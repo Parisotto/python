@@ -1,5 +1,13 @@
 import random
 
+# 0. ADVINHE O NÚMERO
+# Escreva um função que faça oo computador escolher um número inteiro entre 1 e 5 e peça ao usuário tentar descobrir qual número foi escolhido pelo computador. O programa deverá escrever no terminal se o usuário acertou ou errou a adivinhação.
+def adivinha():
+    print("Digite seu código aqui. Exclua esta linha")
+
+# chama a função adivinha() para executar o jogo
+adivinha()
+
 # 1. CARA OU COROA
 # Faça uma função que a pessoa digite c para escolher cara ou k para escolher coroa. Simule o lançamento de uma moeda que resulte em cara (c) ou coroa (k) e diga se a pessoa errou ou acertou na escolha.
 def jogar_moeda():
