@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #003 url("../img/bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body > section {
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 150px 40px 40px 40px;
+
+    background-color: #003a;
+}
+
+body > section > h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
