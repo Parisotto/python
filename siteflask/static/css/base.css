@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #003 url("../img/bg.jpg") no-repeat center center;
+    background: #003 url("../img/bg.jpg") no-repeat fixed center center;
     background-size: cover;
     height: 100vh;
 
@@ -12,16 +12,77 @@ body {
 
 }
 
-body > section { 
+#destaque { 
     color: white;
     text-align: center;
     width: 100%;
-    padding: 150px 40px 40px 40px;
+    height: 100%;
+    padding: 10% 5% 0;
+
+    position: fixed;
+    top: 0;
+    z-index: -1;
 
     background-color: #003a;
 }
 
-body > section > h1 {
-    font-size: 50px;
+#destaque > h1 {
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+#destaque > h2 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#destaque > h3 {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    margin: 45% auto 0;
+}
+
+#apresenta {
+    border: 15px solid white;
+    border-bottom: none;
+    border-radius: 20px 20px 0 0;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px 10px;
+    background-color: #000d;
+
+    color: white;
+}
+
+#apresenta > h1 {
+    font-size: 40px;
+    font-style: italic;
     margin-bottom: 50px;
+}
+
+#apresenta p {
+    font-size: 20px;
+    width: 80%;
+    margin: 30px auto;
+    font-weight: bold;
+}
+
+#caixas {
+    background-color: white;
+    padding: 50px 0;
+}
+
+footer {
+    color: white;
+    background-color: #003a;
+    padding: 50px;
+    text-align: center;
+    border-color: 1px solid black;
 }
