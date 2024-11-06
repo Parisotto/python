@@ -12,7 +12,7 @@ body {
 
 }
 
-body > section {
+body > section { 
     color: white;
     text-align: center;
     width: 100%;
