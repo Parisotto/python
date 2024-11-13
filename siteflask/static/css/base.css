@@ -12,6 +12,14 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #destaque { 
     color: white;
     text-align: center;
@@ -46,6 +54,7 @@ body {
 main {
     text-align: center;
     width: 100%;
+    max-width: 1400px;
     margin: 45% auto 0;
 }
 
@@ -53,7 +62,7 @@ main {
     border: 15px solid white;
     border-bottom: none;
     border-radius: 20px 20px 0 0;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 0 20px 10px;
     background-color: #000d;
@@ -72,6 +81,20 @@ main {
     width: 80%;
     margin: 30px auto;
     font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#apresenta img {
+    width: 200px;
+    background-color: #fff7;
+    margin-top: -110px;
+    margin-bottom: 70px;
+    border-radius: 50%;
+}
+
+#apresenta span {
+    color: cyan;
+    font-style: italic;
 }
 
 #caixas {
@@ -79,10 +102,63 @@ main {
     padding: 50px 0;
 }
 
+#caixas article {
+    border: 1px solid black;
+    width: 32%;
+    display: inline-block;
+}
+
+#caixas #analise {
+    background-image: url("../img/analise-dados.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#caixas #estatistica {
+    background-image: url("../img/estatistica.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#caixas #python {
+    background-image: url("../img/python.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#caixas article h2 {
+    color: darkblue;
+    margin: 280px 0 10px;
+    background-color: white;
+    padding: 20px 0;
+}
+
+#caixas p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    background-color: white;
+}
+
+#caixas a {
+    color: gray;
+    font-weight: normal;
+    font-size: 14px;
+}
+
 footer {
     color: white;
     background-color: #003a;
     padding: 50px;
     text-align: center;
-    border-color: 1px solid black;
+    border-top: 1px solid black;
+}
+
+footer a {
+    font-weight: normal;
+    color: white;
+}
+
+footer a:hover {
+    color: aqua;
 }
